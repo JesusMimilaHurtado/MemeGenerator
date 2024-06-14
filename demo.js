@@ -15,5 +15,5 @@ const requestOptions = {
 };
 fetch("https://api.imgflip.com/caption_image", requestOptions)
   .then((response) => response.json())
-  .then((result) => console.log(result))
+  .then((data) => console.log(data))
   .catch((error) => console.error(error));
